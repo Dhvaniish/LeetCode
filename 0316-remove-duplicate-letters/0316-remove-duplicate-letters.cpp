@@ -1,14 +1,14 @@
-//Approach-1 (Using string as a stack)
+//Approach-2 (Using stack)
 //T.C : O(n) - We visit each character only once (Note that an element once popped from result is never put back)
-//S.C : O(1)
+//S.C : O(n) stack
 class Solution {
 public:
     string removeDuplicateLetters(string s) {
         int n = s.length();
-        string result;
+        stack<char> st;
         
-        vector<bool> taken(26, false); //O(1) space
-        vector<int> lastIndex(26); //O(1) space
+        vector<bool> taken(26, false);
+        vector<int> lastIndex(26);
         
         for(int i = 0; i < n; i++) {
             char ch = s[i];
@@ -23,15 +23,23 @@ public:
             
             if(taken[idx] == true) continue;
             
-            while(result.length() > 0 && s[i] < result.back() && lastIndex[result.back() - 'a'] > i) {
-                taken[result.back() - 'a'] = false;
-                result.pop_back();
+            while(!st.empty()  && s[i] < st.top() && lastIndex[st.top() - 'a'] > i) {
+                taken[st.top() - 'a'] = false;
+                st.pop();
             }
             
-            result.push_back(s[i]);
+            st.push(s[i]);
             taken[idx] = true;
             
         }
+        
+        string result;
+        while(!st.empty()) {
+            result.push_back(st.top());
+            st.pop();
+        }
+        
+        reverse(begin(result), end(result));
         
         return result;
     }
