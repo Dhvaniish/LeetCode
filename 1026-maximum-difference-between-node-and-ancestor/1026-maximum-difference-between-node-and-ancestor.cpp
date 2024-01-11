@@ -9,44 +9,31 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-//Approach-1 (Brute Force) - O(n^2) - n = number of nodes in the Tree
-/*
-  Just simply take a root, find all the differences of it from its childres and find max one
-  Again go to root->left and do the same as above
-  Again go to root->right and do the same as above
-*/
+//Approach-2
+//Optimal (O(n)) using min and max value for |min-max|
 class Solution {
 public:
-    int maxDiff;
-
-    void findMaxUtil(TreeNode* root, TreeNode* child) {
-        if(!root || !child)
-            return;
+    
+    int findMaxDiff(TreeNode* root, int minV, int maxV) {
+        if(!root)
+            return abs(minV-maxV);
         
-        maxDiff = max(maxDiff, abs(root->val - child->val));
+        minV = min(root->val, minV);
+        maxV = max(root->val, maxV);
 
-        findMaxUtil(root, child->left);
-        findMaxUtil(root, child->right);
-    }
+        int l = findMaxDiff(root->left,  minV, maxV);
+        int r = findMaxDiff(root->right, minV, maxV);
 
-    void findMaxDiff(TreeNode* root) {
-        if(!root || !root->left && !root->right)
-         return;
-         
-         //Find max differences of this root with all its children
-         findMaxUtil(root, root->left);
-         findMaxUtil(root, root->right);
 
-         //firther move left and right
-         findMaxDiff(root->left);
-         findMaxDiff(root->right);
+        return max(l, r);
+
     }
 
     int maxAncestorDiff(TreeNode* root) {
-        maxDiff = INT_MIN;
+        int minV = root->val;
+        int maxV = root->val;
 
-        findMaxDiff(root);   
-
-        return maxDiff;     
+        return findMaxDiff(root, minV, maxV);
+   
     }
 };
