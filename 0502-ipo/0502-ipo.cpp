@@ -1,30 +1,33 @@
+//Using heap and greedily picking up projects
+//T.C : O(nlogn)
+//S.C : O(n)
 class Solution {
 public:
-    static bool cmp(pair<int, int>& a, pair<int, int>& b) {
-        if (a.second != b.second)
-            return a.second < b.second;
-        return a.first < b.first;
-    }
-
-    int findMaximizedCapital(int k, int w, vector<int>& profits, vector<int>& capital) {
-
+    int findMaximizedCapital(int k, int paissa, vector<int>& profits, vector<int>& capital) {
         int n = profits.size();
-        vector<pair<int, int>> projects(n);
-        for (int i = 0; i < n; i++)
-            projects[i] = {profits[i], capital[i]};
-        sort(projects.begin(), projects.end(), cmp);
+        
+        vector<pair<int, int>> vec(n);
+        
+        for (int i = 0; i < n; i++) {
+            vec[i] = {capital[i], profits[i]};
+        }
+
+        sort(vec.begin(), vec.end());
+
         int i = 0;
-        priority_queue<int> PQ;
+
+        priority_queue<int> pq;
+
         while (k--) {
-            while (i < n && projects[i].second <= w) {
-                PQ.push(projects[i].first);
+            while (i < n && vec[i].first <= paissa) {
+                pq.push(vec[i].second);
                 i++;
             }
-            if (!PQ.empty()) {
-                w += PQ.top();
-                PQ.pop();
-            }
+            if (pq.empty())
+                break;
+            paissa += pq.top();
+            pq.pop();
         }
-        return w;
+        return paissa;
     }
 };
