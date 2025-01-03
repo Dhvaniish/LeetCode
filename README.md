@@ -43,3 +43,15 @@ Please make sure to follow the [code of conduct](CODE_OF_CONDUCT.md) and respect
 
 This repository is licensed under the [MIT License](LICENSE).
 Created using [LeetHub v2](https://chrome.google.com/webstore/detail/leethub/aciombdipochlnkbpcbgdpjffcfdbggi/related)
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [2358-number-of-ways-to-split-array](https://github.com/Dhvaniish/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
+## Prefix Sum
+|  |
+| ------- |
+| [2358-number-of-ways-to-split-array](https://github.com/Dhvaniish/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
+<!---LeetCode Topics End-->
