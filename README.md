@@ -49,6 +49,7 @@ Created using [LeetHub v2](https://chrome.google.com/webstore/detail/leethub/aci
 ## Array
 |  |
 | ------- |
+| [0952-word-subsets](https://github.com/Dhvaniish/LeetCode/tree/master/0952-word-subsets) |
 | [1524-string-matching-in-an-array](https://github.com/Dhvaniish/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/Dhvaniish/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2358-number-of-ways-to-split-array](https://github.com/Dhvaniish/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
@@ -62,6 +63,7 @@ Created using [LeetHub v2](https://chrome.google.com/webstore/detail/leethub/aci
 ## String
 |  |
 | ------- |
+| [0952-word-subsets](https://github.com/Dhvaniish/LeetCode/tree/master/0952-word-subsets) |
 | [1524-string-matching-in-an-array](https://github.com/Dhvaniish/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/Dhvaniish/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2465-shifting-letters-ii](https://github.com/Dhvaniish/LeetCode/tree/master/2465-shifting-letters-ii) |
@@ -84,4 +86,8 @@ Created using [LeetHub v2](https://chrome.google.com/webstore/detail/leethub/aci
 |  |
 | ------- |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Dhvaniish/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+## Hash Table
+|  |
+| ------- |
+| [0952-word-subsets](https://github.com/Dhvaniish/LeetCode/tree/master/0952-word-subsets) |
 <!---LeetCode Topics End-->
