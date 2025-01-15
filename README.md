@@ -98,6 +98,7 @@ Created using [LeetHub v2](https://chrome.google.com/webstore/detail/leethub/aci
 |  |
 | ------- |
 | [1502-construct-k-palindrome-strings](https://github.com/Dhvaniish/LeetCode/tree/master/1502-construct-k-palindrome-strings) |
+| [2509-minimize-xor](https://github.com/Dhvaniish/LeetCode/tree/master/2509-minimize-xor) |
 ## Counting
 |  |
 | ------- |
@@ -105,5 +106,6 @@ Created using [LeetHub v2](https://chrome.google.com/webstore/detail/leethub/aci
 ## Bit Manipulation
 |  |
 | ------- |
+| [2509-minimize-xor](https://github.com/Dhvaniish/LeetCode/tree/master/2509-minimize-xor) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Dhvaniish/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 <!---LeetCode Topics End-->
