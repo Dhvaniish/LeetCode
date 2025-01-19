@@ -49,6 +49,7 @@ Created using [LeetHub v2](https://chrome.google.com/webstore/detail/leethub/aci
 ## Array
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Dhvaniish/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0952-word-subsets](https://github.com/Dhvaniish/LeetCode/tree/master/0952-word-subsets) |
 | [1524-string-matching-in-an-array](https://github.com/Dhvaniish/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/Dhvaniish/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
@@ -116,4 +117,20 @@ Created using [LeetHub v2](https://chrome.google.com/webstore/detail/leethub/aci
 |  |
 | ------- |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Dhvaniish/LeetCode/tree/master/2533-bitwise-xor-of-all-pairings) |
+## Two Pointers
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/Dhvaniish/LeetCode/tree/master/0042-trapping-rain-water) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/Dhvaniish/LeetCode/tree/master/0042-trapping-rain-water) |
+## Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/Dhvaniish/LeetCode/tree/master/0042-trapping-rain-water) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/Dhvaniish/LeetCode/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
