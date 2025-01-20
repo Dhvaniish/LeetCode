@@ -56,6 +56,7 @@ Created using [LeetHub v2](https://chrome.google.com/webstore/detail/leethub/aci
 | [2358-number-of-ways-to-split-array](https://github.com/Dhvaniish/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/Dhvaniish/LeetCode/tree/master/2465-shifting-letters-ii) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Dhvaniish/LeetCode/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [2685-first-completely-painted-row-or-column](https://github.com/Dhvaniish/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Dhvaniish/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/Dhvaniish/LeetCode/tree/master/2792-neighboring-bitwise-xor) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Dhvaniish/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -96,6 +97,7 @@ Created using [LeetHub v2](https://chrome.google.com/webstore/detail/leethub/aci
 | ------- |
 | [0952-word-subsets](https://github.com/Dhvaniish/LeetCode/tree/master/0952-word-subsets) |
 | [1502-construct-k-palindrome-strings](https://github.com/Dhvaniish/LeetCode/tree/master/1502-construct-k-palindrome-strings) |
+| [2685-first-completely-painted-row-or-column](https://github.com/Dhvaniish/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Dhvaniish/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Greedy
 |  |
@@ -133,4 +135,8 @@ Created using [LeetHub v2](https://chrome.google.com/webstore/detail/leethub/aci
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Dhvaniish/LeetCode/tree/master/0042-trapping-rain-water) |
+## Matrix
+|  |
+| ------- |
+| [2685-first-completely-painted-row-or-column](https://github.com/Dhvaniish/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 <!---LeetCode Topics End-->
