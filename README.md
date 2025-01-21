@@ -52,6 +52,7 @@ Created using [LeetHub v2](https://chrome.google.com/webstore/detail/leethub/aci
 | [0042-trapping-rain-water](https://github.com/Dhvaniish/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0952-word-subsets](https://github.com/Dhvaniish/LeetCode/tree/master/0952-word-subsets) |
 | [1524-string-matching-in-an-array](https://github.com/Dhvaniish/LeetCode/tree/master/1524-string-matching-in-an-array) |
+| [2145-grid-game](https://github.com/Dhvaniish/LeetCode/tree/master/2145-grid-game) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/Dhvaniish/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2358-number-of-ways-to-split-array](https://github.com/Dhvaniish/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/Dhvaniish/LeetCode/tree/master/2465-shifting-letters-ii) |
@@ -63,6 +64,7 @@ Created using [LeetHub v2](https://chrome.google.com/webstore/detail/leethub/aci
 ## Prefix Sum
 |  |
 | ------- |
+| [2145-grid-game](https://github.com/Dhvaniish/LeetCode/tree/master/2145-grid-game) |
 | [2358-number-of-ways-to-split-array](https://github.com/Dhvaniish/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/Dhvaniish/LeetCode/tree/master/2465-shifting-letters-ii) |
 ## String
@@ -138,5 +140,6 @@ Created using [LeetHub v2](https://chrome.google.com/webstore/detail/leethub/aci
 ## Matrix
 |  |
 | ------- |
+| [2145-grid-game](https://github.com/Dhvaniish/LeetCode/tree/master/2145-grid-game) |
 | [2685-first-completely-painted-row-or-column](https://github.com/Dhvaniish/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 <!---LeetCode Topics End-->
