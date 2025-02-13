@@ -73,6 +73,7 @@ Created using [LeetHub v2](https://chrome.google.com/webstore/detail/leethub/aci
 | [0952-word-subsets](https://github.com/Dhvaniish/LeetCode/tree/master/0952-word-subsets) |
 | [1502-construct-k-palindrome-strings](https://github.com/Dhvaniish/LeetCode/tree/master/1502-construct-k-palindrome-strings) |
 | [1524-string-matching-in-an-array](https://github.com/Dhvaniish/LeetCode/tree/master/1524-string-matching-in-an-array) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/Dhvaniish/LeetCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/Dhvaniish/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2465-shifting-letters-ii](https://github.com/Dhvaniish/LeetCode/tree/master/2465-shifting-letters-ii) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Dhvaniish/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -133,6 +134,7 @@ Created using [LeetHub v2](https://chrome.google.com/webstore/detail/leethub/aci
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Dhvaniish/LeetCode/tree/master/0042-trapping-rain-water) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/Dhvaniish/LeetCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -142,4 +144,8 @@ Created using [LeetHub v2](https://chrome.google.com/webstore/detail/leethub/aci
 | ------- |
 | [2145-grid-game](https://github.com/Dhvaniish/LeetCode/tree/master/2145-grid-game) |
 | [2685-first-completely-painted-row-or-column](https://github.com/Dhvaniish/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
+## Simulation
+|  |
+| ------- |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/Dhvaniish/LeetCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 <!---LeetCode Topics End-->
